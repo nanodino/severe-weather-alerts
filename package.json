@@ -1,0 +1,17 @@
+{
+  "name": "severe-weather-alerts",
+  "version": "1.0.0",
+  "description": "Places with severe weather alerts",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "prettier": "^3.0.3"
+  }
+}
