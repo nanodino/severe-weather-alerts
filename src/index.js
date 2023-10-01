@@ -28,7 +28,18 @@ for (const city of cities) {
         .get(full_url)
         .then((response) => {
             if (response.data.alerts.length > 0) {
-                cities_with_alerts.push(city);
+                const weatherWarnings = response.data.alerts.map((alert) => {
+                    return alert.severity === "Warning";
+                });
+                if (weatherWarnings.length > 0) {
+                    for (const warning of weatherWarnings)
+                        cities_with_alerts.push({
+                            city: city,
+                            severity: response.data.alerts[warning].severity,
+                            title: response.data.alerts[warning].title,
+                            description: response.data.alerts[warning].description,
+                        });
+                }
             }
         })
         .catch((error) => {
