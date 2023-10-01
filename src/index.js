@@ -45,8 +45,8 @@ for (const city of cities) {
             }
         })
         .catch((error) => {
-            console.log(`there was an error downloading alert data: ${error}. 
-            Please try again again later`);
+            console.log(`There was an error downloading alert data: ${error.message}. 
+    Please try again again later`);
         });
 }
 
