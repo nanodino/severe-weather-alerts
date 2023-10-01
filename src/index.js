@@ -1,10 +1,10 @@
 import axios from "axios";
 import dotenv from "dotenv";
-const WEATHERBIT_API_BASE_URL = "https://api.weatherbit.io/v2.0/alerts";
 
 dotenv.config();
 
 const API_KEY = process.env.WEATHERBIT_API_KEY;
+const WEATHERBIT_API_BASE_URL = "https://api.weatherbit.io/v2.0/alerts";
 
 const cities = [
     "Toronto",
@@ -17,6 +17,8 @@ const cities = [
     "Seattle",
     "Paris",
     "London",
+    "Hartford",
+    "Red Lake",
 ];
 
 const cities_with_alerts = [];
