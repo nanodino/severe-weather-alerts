@@ -1,0 +1,55 @@
+{
+    "alerts": [
+        {
+            "description": "* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Farmington River at Simsbury.\n\n* WHEN...Until late tonight.\n\n* IMPACTS...At 13.0 feet, Flooding affects Old Farms and Tolliston\nRoads in Avon, Meadow Road in Farmington, and Nod, Riverside, and\nTerrys Plain Roads in Simsbury. Route 315 in Simsbury is also\nimpacted. Flooding spreads into Plantation Country Club and\nadjoining Town Farm Road in Simsbury. Also, flooding will approach\nthe Paine Boathouse.\n\n* ADDITIONAL DETAILS...\n- At 3:30 AM EDT Sunday the stage was 14.0 feet.\n- Bankfull stage is 12.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 3:30 AM EDT Sunday was 14.0 feet.\n- Forecast...The river is expected to fall below flood stage\nlate this evening and continue falling to 6.1 feet early\nTuesday afternoon.\n- Flood stage is 12.0 feet.\n- Flood History...This crest compares to a previous crest of\n13.8 feet on 04/01/2010.\n- http://www.weather.gov/safety/flood",
+            "effective_local": "2023-10-01T04:26:00",
+            "effective_utc": "2023-10-01T08:26:00",
+            "ends_local": "2023-10-02T03:30:00",
+            "ends_utc": "2023-10-02T07:30:00",
+            "expires_local": "2023-10-01T16:30:00",
+            "expires_utc": "2023-10-01T20:30:00",
+            "onset_local": "2023-10-01T04:26:00",
+            "onset_utc": "2023-10-01T08:26:00",
+            "regions": [
+                "Hartford, CT"
+            ],
+            "severity": "Warning",
+            "title": "Flood Warning issued October 1 at 4:26AM EDT until October 2 at 3:30AM EDT by NWS Boston/Norton MA",
+            "uri": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.51a0a2f77087a293e20216ca07b06ff010743c5e.001.1"
+        },
+        {
+            "description": "Clearing skies and a wet ground resulted in areas of fog across\nportions of northern Connecticut and central and western\nMassachusetts. Visibility may be reduced to one quarter mile at\ntimes, especially in the river valleys.\n\nIf traveling this morning, be prepared for very low visibility in\nspots and variable conditions. The fog should start to dissipate\nshortly after sunrise.",
+            "effective_local": "2023-10-01T01:03:00",
+            "effective_utc": "2023-10-01T05:03:00",
+            "ends_local": null,
+            "ends_utc": null,
+            "expires_local": "2023-10-01T08:15:00",
+            "expires_utc": "2023-10-01T12:15:00",
+            "onset_local": "2023-10-01T01:03:00",
+            "onset_utc": "2023-10-01T05:03:00",
+            "regions": [
+                "Hartford",
+                " Tolland",
+                " Windham",
+                " Western Franklin",
+                " Eastern Franklin",
+                " Northern Worcester",
+                " Western Hampshire",
+                " Western Hampden",
+                " Eastern Hampshire",
+                " Eastern Hampden",
+                " Southern Worcester",
+                " Northwest Middlesex County"
+            ],
+            "severity": "Watch",
+            "title": "Special Weather Statement issued October 1 at 1:03AM EDT by NWS Boston/Norton MA",
+            "uri": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4239b16d25a334b60fc4071478fe555bc1e73c07.001.1"
+        }
+    ],
+    "city_name": "Hartford",
+    "country_code": "US",
+    "lat": 41.76371,
+    "lon": -72.68509,
+    "state_code": "CT",
+    "timezone": "America/New_York"
+}
