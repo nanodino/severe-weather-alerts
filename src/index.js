@@ -34,7 +34,7 @@ for (const city of cities) {
                     return alert.severity === "Warning";
                 });
                 if (weatherWarnings.length > 0) {
-                    for (const warning of weatherWarnings)
+                    for (const warning in weatherWarnings)
                         cities_with_alerts.push({
                             city: city,
                             severity: response.data.alerts[warning].severity,
@@ -52,7 +52,7 @@ for (const city of cities) {
 
 if (cities_with_alerts.length > 0) {
     console.log(
-        `There are active weather alerts in the following cities: ${cities_with_alerts}`,
+        `The following weather alerts are active: ${JSON.stringify(cities_with_alerts)}`,
     );
 } else {
     console.log(`There are no active weather alerts`);
